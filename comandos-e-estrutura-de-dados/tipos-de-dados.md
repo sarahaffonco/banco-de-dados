@@ -26,7 +26,7 @@ Nas tabelas abaixo segue a descrição de alguns tipos de dados comuns em bancos
 | Tipo | Descrição  |
 | - |:------------- |
 | CHAR(size) | Uma string de tamanho fixo, no campo size deve informar o tamanho desejado, sendo o padrão 1 caractere |
-| VARCHAR(size) | Uma string de tamanho variável, no campo size é informado um tamanho máximo para esse texto |
+| VARCHAR(size - até 100) | Uma string de tamanho variável, no campo size é informado um tamanho máximo para esse texto |
 | TEXT | Campo para armazenar uma string que contém um texto, uma quantidade muito grande de caracteres. O tamanho pode variar de banco para banco mas em alguns pode armazenar até 2GB de texto |
 | BINARY(size) | Parecido com o campo char mas armazena a string em um formato binario e o valor padrão do campo size é 1 |
 | VARBINARY(size) | Parecido com o campo varchar mas armazena a string em um formato binario |
